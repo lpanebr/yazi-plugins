@@ -2,6 +2,8 @@
 
 An addon to show symlink target in your [yatline.yazi](https://github.com/imsi32/yatline.yazi)'s status or header line.
 
+![yatline-symlink example screenshot](2024-10-06-@13-18-32-scrot.png)
+
 ## Requirements
 
 - yazi version >= 0.3.0
