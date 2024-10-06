@@ -24,6 +24,12 @@ ya pack -a lpanebr/yazi-plugins:yatline-symlink
 require("yatline-symlink"):setup()
 ```
 
+Then, add it in one of your sections in the yatline configuration using:
+
+```lua
+{ type = "coloreds", custom = false, name = "symlink" }
+```
+
 **Optional configuration:**
 
 ```lua
