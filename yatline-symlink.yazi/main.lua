@@ -9,18 +9,14 @@ local function setup(_, options)
 		symlink_color = options.symlink_color or "silver",
 	}
 
-	if Yatline ~= nil then
+	if Yatline and Yatline.coloreds and Yatline.coloreds.get then
 		function Yatline.coloreds.get:symlink()
-			local symlink = {}
-			local linked = ""
 			local h = hovered()
-
-			if h and h.link_to ~= nil then
-				linked = " -> " .. tostring(h.link_to)
+			if not h or not h.link_to then
+				return nil
 			end
 
-			table.insert(symlink, { linked, config.symlink_color })
-			return symlink
+			return { { " -> " .. tostring(h.link_to), config.symlink_color } }
 		end
 	end
 end
