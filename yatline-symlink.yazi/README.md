@@ -6,13 +6,13 @@ An addon to show symlink target in your [yatline.yazi](https://github.com/imsi32
 
 ## Requirements
 
-- yazi version >= 0.3.0
+- Yazi 26.5.6 or newer
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi)
 
 ## Installation
 
 ```sh
-ya pack -a lpanebr/yazi-plugins:yatline-symlink
+ya pkg add lpanebr/yazi-plugins:yatline-symlink
 ```
 
 ## Usage
@@ -33,7 +33,11 @@ Then, add it in one of your sections in the yatline configuration using:
 **Optional configuration:**
 
 ```lua
-require("githead"):setup({
+require("yatline-symlink"):setup({
   symlink_color = "white"
 }
 ```
+
+## Disclaimers
+
+- Since 2026, all parts of this plugin are edited with AI coding tools such as Codex. All changes remain under my supervision and are reviewed and tested by me before release.

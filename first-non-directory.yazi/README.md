@@ -6,12 +6,12 @@ Jump to the first file ignoring directories.
 
 ## Requirements
 
-- yazi version 0.4
+- Yazi 26.5.6 or newer
 
 ## Installation
 
 ```sh
-ya pack -a lpanebr/yazi-plugins:first-non-directory
+ya pkg add lpanebr/yazi-plugins:first-non-directory
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ ya pack -a lpanebr/yazi-plugins:first-non-directory
 Add this to your `keymap.toml` to set the keymap for the plugin:
 
 ```toml
-[[manager.prepend_keymap]]
+[[mgr.prepend_keymap]]
 on   = [ "f", "j" ]
 run  = "plugin first-non-directory"
 desc = "Jumps to the first file"
@@ -27,4 +27,5 @@ desc = "Jumps to the first file"
 
 ## Disclaimers
 
-- Tested only with yazi version 0.4.3
+- Tested with Yazi 26.5.6
+- Since 2026, all parts of this plugin are edited with AI coding tools such as Codex. All changes remain under my supervision and are reviewed and tested by me before release.

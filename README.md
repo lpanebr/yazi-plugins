@@ -2,7 +2,7 @@
 
 My plugins for the [yazi](https://github.com/sxyazi/yazi) terminal file manager.
 
-- Use the `ya pack` package manager introduced in Yazi v0.3 to install.
+- Use the `ya pkg` package manager to install.
   Check specific installation commands and configuration instructions on each individual `README.md`:
 
 ## Jumping
@@ -18,7 +18,8 @@ My plugins for the [yazi](https://github.com/sxyazi/yazi) terminal file manager.
 
 - [yatline-symlink.yazi](yatline-symlink.yazi) - Shows a symlink's target in your header or status line.
 
-## Disclamers
+## Disclaimers
 
-- I try to keep plugins updated. Current versions require yazi version 0.4
+- I try to keep plugins updated. Current versions require Yazi 26.5.6 or newer.
+- Since 2026, all parts of this codebase are edited with AI coding tools such as Codex. All changes remain under my supervision and are reviewed and tested by me before release.
 - :rotating_light: Note that `ya` is a newly introduced standalone CLI binary, not a shell alias for Yazi (See <https://github.com/sxyazi/yazi/issues/914> for details)

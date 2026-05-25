@@ -5,14 +5,14 @@ Uses [antiword](https://github.com/grobian/antiword) to enable MS Word (version 
 ## Requirements
 
 - [antiword](https://github.com/grobian/antiword) - It's probably available in your package manager.
-- yazi version 0.4
+- Yazi 26.5.6 or newer
 
 ## Installation
 
 Install with:
 
 ```sh
-ya pack -a lpanebr/yazi-plugins:doc-preview
+ya pkg add lpanebr/yazi-plugins:doc-preview
 ```
 
 and enable by adding it to your `yazi.toml` config file:
@@ -27,4 +27,5 @@ prepend_previewers = [
 ## Disclaimers
 
 - This plugin was derived from [miller.yazi](https://github.com/Reledia/miller.yazi).
-- Tested only with yazi version 0.4.3
+- Tested with Yazi 26.5.6
+- Since 2026, all parts of this plugin are edited with AI coding tools such as Codex. All changes remain under my supervision and are reviewed and tested by me before release.

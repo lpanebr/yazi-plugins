@@ -13,7 +13,11 @@ return {
 			end
 		end
 
+		if not target_index then
+			return
+		end
+
 		local delta = target_index - cur.cursor
-		ya.manager_emit("arrow", { delta - 1 })
+		ya.emit("arrow", { delta - 1 })
 	end,
 }

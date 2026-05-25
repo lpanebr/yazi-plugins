@@ -1,10 +1,5 @@
-function hovered()
-	local hovered = cx.active.current.hovered
-	if hovered then
-		return hovered
-	else
-		return ""
-	end
+local function hovered()
+	return cx.active.current.hovered
 end
 
 local function setup(_, options)
@@ -18,9 +13,9 @@ local function setup(_, options)
 		function Yatline.coloreds.get:symlink()
 			local symlink = {}
 			local linked = ""
-
 			local h = hovered()
-			if h.link_to ~= nil then
+
+			if h and h.link_to ~= nil then
 				linked = " -> " .. tostring(h.link_to)
 			end
 
