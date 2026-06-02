@@ -11,6 +11,7 @@ My plugins for the [yazi](https://github.com/sxyazi/yazi) terminal file manager.
 
 ## Previewing
 
+- [svg-preview.yazi](svg-preview.yazi) - Enable SVG previews using Inkscape and Yazi's preview cache.
 - [docx-preview.yazi](docx-preview.yazi) - Enable MS Word DOCX files in [yazi](https://github.com/sxyazi/yazi).
 - [doc-preview.yazi](doc-preview.yazi) - Enable MS Word (version 2, 6, 7, 97, 2000 and 2003) DOC files preview in [yazi](https://github.com/sxyazi/yazi).
 
